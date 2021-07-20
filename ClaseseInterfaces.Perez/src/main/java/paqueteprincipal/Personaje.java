@@ -11,4 +11,10 @@ public abstract class Personaje {
         return vida;
     }
     public abstract void modificarVida();
+    
+    public static void main (String args[]){
+        Personaje a = new Aldeano();
+        a = new Elfo();
+        a = new Heroe();
+    }
 }
